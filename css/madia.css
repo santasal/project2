@@ -1,0 +1,460 @@
+/* Media Queries */
+
+/* 1200 - 1400 px */
+@media screen and (max-width: 1400px) {
+    .logo__image {
+        width: 100%;
+    }
+    .mission-left {
+        width: 460px;
+    }
+    .mission-right {
+        width: 340px;
+    }
+}
+
+/* 992 - 1199 px */
+@media screen and (max-width: 1199px) {
+    .offer, .reasons, .work {
+        width: 100%;
+    }
+    .business, .accounting, .legal {
+        width: 100%;
+    }
+    .mission-left, .mission-right {
+        width: 100%;
+    }
+    .footer-logo__image {
+        width: 100%;
+    }
+    
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 991px) {
+    .cssload-loader {
+        margin-left: -30px;
+        margin-top: -90px;
+    }
+    .burger {
+        display: block;
+    }
+    .header {
+        padding: 25px 0 131px;
+        box-shadow: inset 0 100px 0px 0px rgba(200,203,218,0.5);
+    }
+    .header:before {
+        top: 563px;
+    }
+    .call {
+        margin-top: 11px;
+    }
+    .call__link {
+        font-size: 13px;
+        padding: 10px 16px 11px 16px;
+    }
+    .logo__image {
+        width: 100%;
+    }
+    .reasons {
+        margin-top: 32px;
+    }
+    .info {
+        background: #58647a;
+    }
+    .mission-left {
+        margin-bottom: 50px;
+    }
+    .news__item {
+        width: 100%;
+        margin-top: 11px;
+    }
+    .news__block:after {
+        width: 40%;
+        bottom: -15px;
+        left: 0;
+    }
+    .entrepreneurship, .edjucation {
+        margin-top: 40px;
+    }
+    .footer-logo__image {
+        width: 100%;
+        margin-top: 38px;
+    }
+}	
+
+/* 576 - 768 px */
+@media screen and (max-width: 767px) {
+    .cssload-loader {
+        margin-left: -30px;
+        margin-top: -70px;
+    }
+    .header:before {
+        top: 535px;
+    }
+    .header {
+        padding-top: 30px;
+    }
+    .burger {
+        padding: 6px;
+    }
+    .call {
+        margin-top: 7px;
+    }
+    .menu-opened {
+        left: 15px;
+    }
+	.title {
+        font-size: 45px;
+        margin-top: 13  0px;
+    }
+    .text {
+        font-size: 25px;
+    }
+    .reasons {
+        margin-top: 0;
+    }
+    .mission-right__link  {
+        margin-bottom: 40px;
+    }
+    .news__block:after {
+        width: 50%;
+    }
+    .about, .press, .services, .industries, .edjucation, .entrepreneurship {
+        text-align: center;
+    }
+    .footer-text, .footer-info, .rights {
+        text-align: center;
+    }
+    .footer-text {
+        margin: 20px 0 20px;
+    }
+    .footer-logo__image {
+        width: 180px;
+    }
+    .design {
+        margin-top: 20px;
+    }
+    .design {
+        justify-content: center;
+    }
+    .footer-call__link {
+        margin-top: 40px;
+    }
+
+}
+
+/* 480 - 576 px */
+@media screen and (max-width: 575px) {
+    .header:before {
+        top: 530px;
+    }
+    .burger {
+        padding: 5px;
+    }
+    .menu-opened {
+        left: 12px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .news__block:after {
+        width: 100%;
+    }
+}
+
+/* 320 - 479 px */
+@media screen and (max-width: 479px) {
+    .header:before {
+        top: 559px;
+    }
+    .call__link {
+        font-size: 13px;
+        padding: 9px 9px 8px 7px;
+        font-size: 10px;
+    }
+    .menu-opened {
+        left: 8px;
+    }
+    .text {
+        width: 100%;
+    }
+    .box-modal {
+        width: 280px;
+        padding: 20px;
+    }
+}
+
+/* - - - SERVICES - - - */
+
+/* 1200 - 1399 px */
+@media screen and (max-width: 1399px) {
+    .category-text {
+        width: 755px;
+    }
+}
+
+/* 992 - 1199 px */
+@media screen and (max-width: 1199px) {
+    .services-logo__image {
+        width: 100%;
+    }
+    .category-text {
+        width: 100%;
+    }
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 991px) {
+    .services-header {
+        padding: 26px 0 15px;
+    }
+    .services-burger {
+        display: block;
+        margin-top: 10px;
+    }
+    .services-call {
+        margin-bottom: 15px;
+    }
+    .services-call__link {
+        font-size: 13px;
+        padding: 10px 16px 11px 16px;
+    }
+    .menu__link {
+        padding: 13px 16px 15px 17px;
+    }
+    .juristic-text {
+        width: 100%;
+    }
+    .juristic {
+        padding: 50px 0 50px;
+    }
+    .background-navigation__link {
+        width: 100%;
+    }
+    .background-feedback__title {
+        margin-bottom: 60px;
+    }
+    .slick-dotted.slick-slider {
+        margin-bottom: 80px;
+    }
+    .consult {
+        width: 100%;
+    }
+}	
+
+/* 576 - 768 px */
+@media screen and (max-width: 767px) {  
+    .services-header {
+        padding: 30px 0 0;
+    }
+    .services-call {
+        margin: 0 0 30px;
+    }
+    .services-burger {
+        margin-top: 0;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu__link {
+        text-align: center;
+        padding: 11px 0;
+        min-width: 230px;
+    }
+    .consult__image {
+        display: none;
+    }
+}
+
+/* 480 - 576 px */
+@media screen and (max-width: 575px) {
+    .services-call {
+        margin-top: 7px;
+    }
+    .background {
+        padding: 50px 0 0 10px;
+    }
+    .background-navigation__item_one:before {
+        left: -10px;
+    }
+    .background-navigation__item:after {
+        left: -10px;
+    }
+    .background-feedback__slide {
+        padding-right: 0;
+    }
+}
+
+/* 320 - 479 px */
+@media screen and (max-width: 479px) {
+    .services-call__link {
+        padding: 9px 9px 8px 7px;
+        font-size: 10px;
+    }
+    .consult {
+        padding: 24px 0 0 15px;
+    }
+    .consult__application {
+        margin: 0 10px 14px 0;
+    }
+    .consult__phone {
+        margin-top: 8px;
+        letter-spacing: 0;
+        font-size: 13px;
+    }
+    .consult__link {
+        width: 135px;
+    }
+    .slick-next {
+        margin-right: 35px;
+    }
+}
+
+/* - - - ABOUT - - - */
+
+/* 1200 - 1399 px */
+@media screen and (max-width: 1399px) {
+    .benefits-list__text {
+        width: 100%;
+    }
+}
+
+/* 992 - 1199 px */
+@media screen and (max-width: 1199px) {
+    .benefits-text {
+        width: 100%;
+    }
+    .photo__image {
+        height: 100%;
+    }
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 991px) {
+    .options__link {
+        padding: 14px 14px 12px 20px;
+    }
+    .benefits-list__item:after {
+        width: 100%;
+    }
+    .photo__icon {
+        width: 26px;
+        height: 26px;
+        background: url(../images/about/icon2.png) no-repeat center;
+    }
+}	
+
+/* 576 - 768 px */
+@media screen and (max-width: 767px) {  
+    .options {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .options__link {
+        text-align: center;
+        padding: 14px 15px 12px 15px;
+    }
+    .benefits {
+        padding: 54px 0 15px;
+    }
+    .benefits-list__item {
+        flex-direction: column;
+    }
+    .benefits-list__icon {
+        margin: 0 0 33px;
+        max-width: 60px;
+    }
+    .photo {
+        margin-bottom: 25px;
+    }
+}
+
+/* 480 - 576 px */
+@media screen and (max-width: 575px) {
+    .lb-image {
+        width: 400px!important;
+        height: 400px!important;
+    }  
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 479px) {
+    .lb-image {
+        width: 300px!important;
+        height: 300px!important;
+    }  
+}
+
+
+/*  - - - CONTACTS - - -  */
+
+/* 1200 - 1399 px */
+@media screen and (max-width: 1399px) {
+    
+}
+
+/* 992 - 1199 px */
+@media screen and (max-width: 1199px) {
+}
+
+
+/* 768 - 992 px */
+@media screen and (max-width: 991px) {
+    .office {
+        margin-top: 40px;
+    }
+    .services-list {
+        padding: 70px 0 90px 0;
+    }
+    .map {
+        padding: 0 0 25px;
+    }
+    .maps {
+        position: static;
+    }
+    .map-info__text {
+        width: 360px;
+    }
+    .map-info {
+        margin-top: 21px;
+    }
+    .map-info:before {
+        display: none;
+    }
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 767px) {  
+    .office {
+        flex-direction: column;
+        align-items: center;
+    }
+    .map-wrap {
+        flex-direction: column;
+    }
+    .map-info__text {
+        width: 100%;
+    }
+    .map-info__item_details {
+        margin-bottom: 30px;
+    }
+}
+
+/* 480 - 576 px */
+@media screen and (max-width: 575px) {
+}
+
+/* 320 - 479 px */
+@media screen and (max-width: 479px) { 
+    .map-info__link {
+        margin-left: 10px;
+    } 
+    .map-info__title {
+        margin: 0;
+    }
+}
+
+

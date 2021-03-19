@@ -1,0 +1,58 @@
+.box-modal {
+	position: relative;
+	text-align: center;
+	width: 410px;
+	padding: 50px;
+	background: #fff;
+	border-radius: 6px;
+}
+
+.box-modal__title {
+	color: #081d42;
+	font-size: 21px;
+	margin-bottom: 11px;
+}
+
+.box-modal__text {
+	margin-bottom: 30px;
+}
+
+.box-modal__input {
+    width: 100%;
+    color: #a0a0a3;
+    border-color: transparent;
+    border-bottom: 1px solid #757888;
+    margin-bottom: 22px;
+    padding-bottom: 10px;
+}
+
+.box-modal__link {
+	margin-top: 6px;
+    color: #fff;
+    font-family: 'Museo Sans Cyrl 700';
+    font-size: 15px;
+    padding: 11px 0 12px;
+    border-bottom: 4px solid #149d6f;
+    background-color: #1cb883;
+}
+
+.box-modal__icon {
+    color: #46e6b0;
+}
+
+.arcticmodal-overlay {
+	background: rgb(29, 33, 63)!important;
+	opacity: 0.95!important;
+}
+.box-modal_close { position: absolute; 
+	right: 10px; 
+	top: 6px; 
+	font-size: 11px; 
+	line-height: 15px; 
+	color: rgb(226, 225, 225); 
+	cursor: pointer; 
+}
+
+.box-modal_close:hover { 
+	color: #666; 
+}
